@@ -96,9 +96,9 @@ function lib:Window(text, preset, closebind)
     local TabFolder = Instance.new("Folder")
     local DragFrame = Instance.new("Frame")
 
-   pfp = userinfo["pfp"] or "https://www.roblox.com/headshot-thumbnail/image?userId=".. game.Players.LocalPlayer.UserId .."&width=420&height=420&format=png"
-user =  userinfo["user"] or game.Players.LocalPlayer.Name
-tag = userinfo["tag"] or tostring(math.random(1000,9999))
+   pfp = "https://www.roblox.com/headshot-thumbnail/image?userId=".. game.Players.LocalPlayer.UserId .."&width=420&height=420&format=png"
+user =   game.Players.LocalPlayer.Name
+tag = tostring(math.random(1000,9999))
 
 
     local Userpad = Instance.new("Frame")
